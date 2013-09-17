@@ -3,6 +3,7 @@ WhatLine.js is a simple and better way to detect and show message to online/offl
 
 ##How To Use?
 Simply include `whatline.js` in your web page (or include minified version).
+
 There is two way to use WhatLine.js. You can use first way and past `online` or `offline` attribute in your element like this:
 ```html
 <p offline>You havent intenet connection</p>
