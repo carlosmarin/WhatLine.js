@@ -2,7 +2,7 @@
 WhatLine.js is a simple and better way to detect and show message to online/offline users. this use `navigator.onLine` property in HTML5 and if user's browser cant support HTML5, we use XHR to test internet connection.
 
 ##How To Use?
-Simply include `whatline.js` in your web page. (or include minified version)
+Simply include `whatline.js` in your web page (or include minified version).
 There is two way to use WhatLine.js. You can use first way and past `online` or `offline` attribute in your element like this:
 ```html
 <p offline>You havent intenet connection</p>
@@ -12,7 +12,7 @@ or:
 <p online>You have intenet connection</p>
 ````
 
-Rememmber this point, when you use offline attribute, this element's display will be none! so you when see this message when you are offline! but for online attribute, this message show everytime when you are online.
+Rememmber this point, when you use offline attribute, this element's display will be none! so you see this message when you are offline! but for online attribute, this message show everytime when you are online.
 
 And way 2! you can use javascript api to set callback for online/offline users with this code:
 ```javascript
