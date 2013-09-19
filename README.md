@@ -6,11 +6,11 @@ Simply include `whatline.js` in your web page (or include minified version).
 
 There is two way to use WhatLine.js. You can use first way and past `online` or `offline` attribute in your element like this:
 ```html
-<p offline>You havent intenet connection</p>
+<p offline>You havent internet connection</p>
 ````
 or:
 ```html
-<p online>You have intenet connection</p>
+<p online>You have internet connection</p>
 ````
 
 Rememmber this point, when you use offline attribute, this element's display will be none! so you see this message when you are offline! but for online attribute, this message show everytime when you are online.
